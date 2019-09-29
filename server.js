@@ -84,4 +84,4 @@ io.on("connection", function(socket) {
 });
 
 const port = 3000;
-http.listen(port, () => console.log(`Example app listening on port ${port}!`));
+http.listen(port, "0.0.0.0", () => console.log(`Listening on port ${port}!`));
